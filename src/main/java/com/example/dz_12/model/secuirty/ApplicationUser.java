@@ -1,17 +1,18 @@
-package org.klozevitz.phat_store_mvc_java_311.model.secuirty;
+package com.example.dz_12.model.secuirty;
 
+import com.example.dz_12.model.BaseEntity;
+import com.example.dz_12.model.entities.shop.Order;
+import com.example.dz_12.model.entities.shop.Profile;
 import jakarta.persistence.*;
 import lombok.*;
-import org.klozevitz.phat_store_mvc_java_311.model.BaseEntity;
-import org.klozevitz.phat_store_mvc_java_311.model.entities.shop.Order;
-import org.klozevitz.phat_store_mvc_java_311.model.entities.shop.Profile;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 
-import static org.klozevitz.phat_store_mvc_java_311.model.secuirty.Role.ROLE_USER;
+import static com.example.dz_12.model.secuirty.Role.ROLE_USER;
+
 
 @Getter
 @Setter

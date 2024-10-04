@@ -1,4 +1,4 @@
-package org.klozevitz.phat_store_mvc_java_311.model.secuirty;
+package com.example.dz_12.model.secuirty;
 
 import org.springframework.security.core.GrantedAuthority;
 

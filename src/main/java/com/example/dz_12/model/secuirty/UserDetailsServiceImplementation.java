@@ -1,8 +1,7 @@
-package org.klozevitz.phat_store_mvc_java_311.model.secuirty;
+package com.example.dz_12.model.secuirty;
 
+import com.example.dz_12.repositories.ApplicationUserRepository;
 import lombok.RequiredArgsConstructor;
-import org.klozevitz.phat_store_mvc_java_311.repositories.ApplicationUserRepository;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

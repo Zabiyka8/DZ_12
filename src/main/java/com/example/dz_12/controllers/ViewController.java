@@ -1,8 +1,8 @@
-package org.klozevitz.phat_store_mvc_java_311.controllers;
+package com.example.dz_12.controllers;
 
+import com.example.dz_12.dao.services.CategoryService;
+import com.example.dz_12.model.entities.stock.dto.CategoryDTO;
 import lombok.RequiredArgsConstructor;
-import org.klozevitz.phat_store_mvc_java_311.dao.services.CategoryService;
-import org.klozevitz.phat_store_mvc_java_311.model.entities.stock.dto.CategoryDTO;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;

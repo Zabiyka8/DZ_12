@@ -1,11 +1,10 @@
-package org.klozevitz.phat_store_mvc_java_311.configs;
+package com.example.dz_12.configs;
 
+import com.example.dz_12.model.secuirty.UserDetailsServiceImplementation;
+import com.example.dz_12.repositories.ApplicationUserRepository;
 import lombok.RequiredArgsConstructor;
-import org.klozevitz.phat_store_mvc_java_311.model.secuirty.UserDetailsServiceImplementation;
-import org.klozevitz.phat_store_mvc_java_311.repositories.ApplicationUserRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

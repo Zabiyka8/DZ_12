@@ -1,6 +1,7 @@
-package org.klozevitz.phat_store_mvc_java_311.repositories;
+package com.example.dz_12.repositories;
 
-import org.klozevitz.phat_store_mvc_java_311.model.secuirty.ApplicationUser;
+
+import com.example.dz_12.model.secuirty.ApplicationUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

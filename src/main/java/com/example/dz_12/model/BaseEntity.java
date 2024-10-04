@@ -1,4 +1,4 @@
-package org.klozevitz.phat_store_mvc_java_311.model;
+package com.example.dz_12.model;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

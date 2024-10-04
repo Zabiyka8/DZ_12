@@ -1,11 +1,11 @@
-package org.klozevitz.phat_store_mvc_java_311.model.entities.stock.entities;
+package com.example.dz_12.model.entities.stock.entities;
 
+import com.example.dz_12.model.BaseEntity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
-import org.klozevitz.phat_store_mvc_java_311.model.BaseEntity;
 
 import java.util.HashSet;
 import java.util.Set;

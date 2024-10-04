@@ -1,9 +1,9 @@
-package org.klozevitz.phat_store_mvc_java_311.dao.implementations;
+package com.example.dz_12.dao.implementations;
 
+import com.example.dz_12.dao.services.BrandService;
+import com.example.dz_12.model.entities.stock.entities.Brand;
+import com.example.dz_12.repositories.BrandRepository;
 import lombok.RequiredArgsConstructor;
-import org.klozevitz.phat_store_mvc_java_311.dao.services.BrandService;
-import org.klozevitz.phat_store_mvc_java_311.model.entities.stock.entities.Brand;
-import org.klozevitz.phat_store_mvc_java_311.repositories.BrandRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,23 +1,21 @@
-package org.klozevitz.phat_store_mvc_java_311.util;
+package com.example.dz_12.util;
 
-
+import com.example.dz_12.dao.services.BrandService;
+import com.example.dz_12.dao.services.CategoryService;
+import com.example.dz_12.model.entities.itemAttributes.Color;
+import com.example.dz_12.model.entities.itemAttributes.Sex;
+import com.example.dz_12.model.entities.itemAttributes.Size;
+import com.example.dz_12.model.entities.stock.entities.Brand;
+import com.example.dz_12.model.entities.stock.entities.Category;
+import com.example.dz_12.model.entities.stock.entities.Item;
+import com.example.dz_12.model.entities.stock.entities.StockPosition;
+import com.example.dz_12.model.secuirty.ApplicationUser;
+import com.example.dz_12.repositories.ApplicationUserRepository;
 import lombok.RequiredArgsConstructor;
-import org.klozevitz.phat_store_mvc_java_311.dao.services.BrandService;
-import org.klozevitz.phat_store_mvc_java_311.dao.services.CategoryService;
-import org.klozevitz.phat_store_mvc_java_311.model.entities.itemAttributes.Color;
-import org.klozevitz.phat_store_mvc_java_311.model.entities.itemAttributes.Sex;
-import org.klozevitz.phat_store_mvc_java_311.model.entities.itemAttributes.Size;
-import org.klozevitz.phat_store_mvc_java_311.model.entities.stock.entities.Brand;
-import org.klozevitz.phat_store_mvc_java_311.model.entities.stock.entities.Category;
-import org.klozevitz.phat_store_mvc_java_311.model.entities.stock.entities.Item;
-import org.klozevitz.phat_store_mvc_java_311.model.entities.stock.entities.StockPosition;
-import org.klozevitz.phat_store_mvc_java_311.model.secuirty.ApplicationUser;
-import org.klozevitz.phat_store_mvc_java_311.repositories.ApplicationUserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
